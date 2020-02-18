@@ -1,15 +1,19 @@
+
 body
 {
-	background-image: url("/css/image/backdrop.jpg");
+	background-image: url("/css/image/sky.jpeg");
 	background-repeat:repeat-z;
 	background-attachment:scroll;
 	background-color:cyan;
+	background-size:cover;
 }
 
 h1,h3
 {
-	color:white;
-	margin-left:70px;
+	color:black;
+	margin-left:70px;	
+	text-indent:1cm;
+	text-decoration:underline;
 }
 
 p
@@ -17,4 +21,56 @@ p
 	color:white;
 	font-style:italic;
 	font-family:Times New Roman, serif;
+	font-size:20px;
+	
 }
+
+p.normal
+{
+	color:blue;
+	font-family:serif;
+	font-weight:bold;	
+	letter-spacing:10px;
+	text-decoration:overline;
+}
+
+p.special
+{
+	color:red;
+	font-weight:bolder;
+	direction:rtl;
+	word-spacing:10px;
+	text-decoration:blink;
+	text-decoration:line-through;
+	text-transform:lowercase;
+}
+
+p.s
+{
+	text-transform:capitalize;
+}
+
+p.s1
+{
+	text-transform:uppercase;
+	text-shadow: 4px 4px 4px blue;
+	border:10px;
+}
+
+img
+{
+	box-shadow:4px 10px 5px blue;
+	margin-left:700px;
+	width:350px;
+	height:250px;
+	opacity: 0.5;
+
+}
+
+img:hover
+{
+	border: 3px dashed cyan;
+	opacity:1.0;
+}
+	
+
