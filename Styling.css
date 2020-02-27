@@ -69,8 +69,71 @@ img
 
 img:hover
 {
-	border: 3px dashed cyan;
+	border: 3px double cyan;
 	opacity:1.0;
 }
 	
+#id1
+{
+	color:red;
+	text-decoration:underline;
+}
 
+
+#id2
+{
+	color: purple;
+	border-style:groove;
+}
+
+p.one
+{
+	border-style:solid;
+	border-width:5px;
+	border-color:blue;
+}
+
+p.two
+{
+	border-style:dashed;
+	border-width:3px;
+	border-color:limegreen;
+}
+
+p.three
+{
+	border-style:double;
+	border-width:2px;
+	border-color:orange;
+}
+
+p.three
+{
+	border-style:double;
+	border-width:2px;
+	border-color:orange;
+}
+
+p.four
+{
+	border-top-style:dotted;
+	border-right-style:groove;
+	border-left-style:ridge;
+	border-bottom-style:double;
+	border-color:pink;
+	border-top-color:Chartreuse;
+	border-left-color:Crimson;
+	border-right-color:DeepPink;
+	border-bottom-color:GreenYellow;
+}
+
+
+#id3
+{
+	margin:25px 50px 100px 30px;
+}
+
+h3.auto
+{
+	margin:auto;
+}
