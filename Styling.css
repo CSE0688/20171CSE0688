@@ -12,7 +12,6 @@ h1,h3
 {
 	color:black;
 	margin-left:70px;	
-	text-indent:1cm;
 	text-decoration:underline;
 }
 
@@ -84,6 +83,7 @@ img:hover
 {
 	color: purple;
 	border-style:groove;
+	padding:25px 50px 75px 100px;
 }
 
 p.one
@@ -98,6 +98,7 @@ p.two
 	border-style:dashed;
 	border-width:3px;
 	border-color:limegreen;
+	
 }
 
 p.three
@@ -118,13 +119,17 @@ p.four
 {
 	border-top-style:dotted;
 	border-right-style:groove;
-	border-left-style:ridge;
 	border-bottom-style:double;
+	border-left-style:ridge;
 	border-color:pink;
 	border-top-color:Chartreuse;
 	border-left-color:Crimson;
 	border-right-color:DeepPink;
 	border-bottom-color:GreenYellow;
+	padding-top:50px;
+	padding-right:30px;
+	padding-bottom:50px;
+	padding-left:80px;
 }
 
 
@@ -137,3 +142,97 @@ h3.auto
 {
 	margin:auto;
 }
+
+#id4
+{
+	margin:2cm;
+	padding:5px 5px 5px 5px;
+	border-style:dashed;
+	border-color:green;
+	border-width:2px;
+}
+
+li.Q2
+{
+	display:inline;
+	text-decoration:
+}
+
+span.a
+{
+	display:inline;
+	width:100px;
+	height:100px;
+	padding:5px;
+	border:1px purple;
+	background-color:yellow;
+}
+
+span.b
+{
+	display:inline-block;
+	width:100px;
+	height:352px;
+	padding:5px;
+	border:1px solid blue;
+	background-color:yellow;
+}
+
+span.c
+{
+	display:block;
+	width:150px;
+	height:250px;
+	padding:5px;
+	border:1px solid blue;
+	background-color:yellow;
+}
+
+a.tag1
+{
+	text-decoration:underline;
+	color:black;
+}
+a.tag1:active
+{
+	color:purple;
+}
+
+
+a.tag2
+{
+	color:green;
+	text-decoration:none;
+}
+a.tag2:link
+{
+	color:pink;
+}
+
+a.tag3
+{
+	text-decoration:none;
+	border:2px;
+	border-style:solid;
+	border-color:green;
+	padding:5px;
+
+}
+a.tag3:visited
+{
+	color:blue;
+}
+
+
+a.tag4
+{
+	text-decoration:none;
+	background-color:black;
+	color:white;
+	padding:5px;
+}
+a.tag4:hover
+{
+  color:yellow;
+}
+
