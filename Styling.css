@@ -1,7 +1,7 @@
 
 body
 {
-	background-image: url("/css/image/sky.jpeg");
+	background-image:radial-gradient(white 30%, blue 60%);
 	background-repeat:repeat-z;
 	background-attachment:scroll;
 	background-color:cyan;
@@ -234,5 +234,95 @@ a.tag4
 a.tag4:hover
 {
   color:yellow;
+}
+
+
+P.k::first-line
+{
+color:#ff0000;
+font-variant:small_caps;
+}
+
+
+P.r::first-letter
+{
+color:#ff0000;
+font-variant:xx-large;
+}
+
+
+h1.sk::selection
+{
+color:blue;
+background:yellow;
+}
+
+
+div.one
+{
+background-image: url("lights.jpg");
+border:solid grey;
+}
+
+div.two
+{
+background-color:white;
+opacity:0.4;
+border:solid grey;
+
+}
+
+div.three
+{
+	width:100px;
+	height:100px;
+	background:lightblue;
+	transition: width 2s,height 4s;
+}
+
+div.three:hover
+{
+   color:red;
+   width:300px;
+   height:300px;
+}
+
+div.four
+{
+	width:100px;
+	height:100px;
+	background:pink;
+	transition: width 2s,height 4s,transform 2s;
+}
+
+div.four:hover
+{
+	width:300px;
+	height:300px;
+	transform: rotateX(360deg);
+	transform:rotateY(150deg);
+	transform: rotateZ(270deg);
+}
+
+div.five
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:4;
+  animation-direction:alternate-reverse;
+}
+
+@keyframes example {
+
+0% {transform: rotate(0deg);left:0px;background-color:red;}
+25% {transform: rotate(20deg);left:0px;background-color:white;}
+50% {transform: rotate(0deg);left:500px;background-color:purple;}
+65% {transform: rotate(0deg);left:500px;background-color:yellow;}
+80% {transform: rotate(0deg);left:500px;background:Aquamarine;}
+100% {transform: rotate(-360deg);left:0px;background-color:cyan;}
 }
 
